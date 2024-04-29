@@ -18,6 +18,7 @@
 #include <algorithm>
 #include <random>
 #include <chrono>
+#include <stdexcept>
 
 // A wrapper around std::chrono::high_resolution_clock which starts measuring time once constructed, and reports elapsed time
 class Stopwatch
